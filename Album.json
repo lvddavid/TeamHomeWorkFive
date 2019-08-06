@@ -1,0 +1,19 @@
+{
+  "album":[
+    {
+      "NameOfArtist":"Sonny John Moore",
+      "SongName":"Skrillex - Bangarang (Ft. Sirah)",
+      "Minutes":3.36
+    },
+    {
+      "NameOfArtist":"Unknown Brain",
+      "SongName":" War Zone (ft. M.I.M.E.)",
+      "Minutes":3.03
+    },
+    {
+      "NameOfArtist":"Eminem",
+      "SongName":"Not Afraid",
+      "Minutes":4.18
+    }
+  ]
+}
