@@ -39,11 +39,7 @@ public class Main {
         System.out.println("Задано текстовий файл з інформацією про музичний альбом. Кожний запис містить прізвище виконавця, назву пісні та її тривалість. Створити відповідний клас, для зберігання інформації використати одну з колекцій; відсортувати дані за назвою пісні. Відсортовані записи вивести на екран. Передбачити обробку виключних ситуацій.");
         System.out.println("\n Before: " + userModelLists);
 
-
-
 //---------------------------------------------------------------------------------------------------------------------------------------------
-
-
         ArrayList<String>Words = readFromFile("album.json");
         System.out.println(Arrays.toString(Words.toArray()));
         Collections.sort(Words);
@@ -63,9 +59,9 @@ public class Main {
             sc.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.out.println( e + "Файл не знайдено");
         }
         return MyList;
-
     }
 
 
