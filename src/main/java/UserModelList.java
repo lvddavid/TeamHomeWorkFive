@@ -4,11 +4,10 @@ import java.util.List;
 public class UserModelList {
 
     @Override
-    public String toString() {
-        return "UserModelList{" +
-                "Album=" + Album +
-                '}';
-    }
+      public String toString() {
+          return "Album= " + Album +
+                  '}';
+      }
 
     private List<SaveModel> Album;
     public List<SaveModel> getAlbum() {
