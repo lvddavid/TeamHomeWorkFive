@@ -1,22 +1,19 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-
 
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 
-public  class SaveModel {
+public class SaveModel {
 
-        @JsonProperty("NameOfArtist")
-        private String NameOfArtist;
+    @JsonProperty("NameOfArtist")
+    private String NameOfArtist;
 
-        @JsonProperty("SongName")
-        private String SongName;
+    @JsonProperty("SongName")
+    private String SongName;
 
-        @JsonProperty("Minutes")
-        private int Minutes;
+    @JsonProperty("Minutes")
+    private int Minutes;
 
 
     public String getNameOfArtist() {
@@ -24,7 +21,7 @@ public  class SaveModel {
     }
 
     public void setNameOfArtist(String nameOfArtist) {
-        this.NameOfArtist = nameOfArtist;
+        NameOfArtist = nameOfArtist;
     }
 
     public String getSongName() {
@@ -32,7 +29,7 @@ public  class SaveModel {
     }
 
     public void setSongName(String songName) {
-        this.SongName = songName;
+        SongName = songName;
     }
 
     public int getMinutes() {
@@ -40,16 +37,17 @@ public  class SaveModel {
     }
 
     public void setMinutes(int minutes) {
-        this.Minutes = minutes;
+        Minutes = minutes;
     }
-
 
     @Override
     public String toString() {
         return "SaveModel{" +
-                "NameOfArtist=  '" + NameOfArtist + '\'' +
-                ", SongName=  '" + SongName + '\'' +
-                ", Minutes=  " + Minutes +
+                "NameOfArtist='" + NameOfArtist + '\'' +
+                ", SongName='" + SongName + '\'' +
+                ", Minutes=" + Minutes +
                 '}';
     }
+
+
 }
